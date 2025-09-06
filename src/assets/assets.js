@@ -50,33 +50,33 @@ export const productsData = [
 export const ShadesproductsData = [
   {
     _id: "1",
-    title: "Shutters",
-    image: "/images/image_1.png",
+    title: "Motorized Shades",
+    image: "/images/Motorized-Shades1.jpeg",
   },
   {
     _id: "2",
-    title: "Shades",
-    image: "/images/image_2.png",
+    title: "Solar Shades",
+    image: "/images/Solar-Shades2.png",
   },
   {
     _id: "3",
-    title: "Blinds",
-    image: "/images/image_3.jpg",
+    title: "Horizontal Sheer Shades",
+    image: "/images/Horizontal-Sheer-Shades3.png",
   },
   {
     _id: "4",
-    title: "Retrackable Awwings",
-    image: "/images/image_4.jpg",
+    title: "Dual Shades",
+    image: "/images/Dual-Shades-4.png",
   },
     {
     _id: "5",
-    title: "Motorized Screens",
-    image: "/images/image_5.jpg",
+    title: "Roman Shades",
+    image: "/images/Roman-Shades-5.png",
   },
     {
     _id: "6",
-    title: "Draps",
-    image: "/images/image_6.jpg",
+    title: "Insulated Shades",
+    image: "/images/Insulated-Shades-6.jpeg",
   },
 ];
 
@@ -84,33 +84,33 @@ export const ShadesproductsData = [
 export const ShuttersproductsData = [
   {
     _id: "1",
-    title: "Shutters",
-    image: "/images/image_1.png",
+    title: "Wood Shutters",
+    image: "/images/wood-shutters1.jpeg",
   },
   {
     _id: "2",
-    title: "Shades",
-    image: "/images/image_2.png",
+    title: "Plantation Shutters",
+    image: "/images/Plantation-Shutters2.jpeg",
   },
   {
     _id: "3",
-    title: "Blinds",
-    image: "/images/image_3.jpg",
+    title: "Wood Shutters",
+    image: "/images/Faux-Wood-Shutters3.jpeg",
   },
   {
     _id: "4",
-    title: "Retrackable Awwings",
-    image: "/images/image_4.jpg",
+    title: "Height Shutters",
+    image: "/images/Cafe-Height-Shutters4.jpeg",
   },
     {
     _id: "5",
-    title: "Motorized Screens",
-    image: "/images/image_5.jpg",
+    title: "Fold Shutters",
+    image: "/images/Bi-Fold-Shutters-5.jpg",
   },
     {
     _id: "6",
-    title: "Draps",
-    image: "/images/image_6.jpg",
+    title: "Sidelight Shutters",
+    image: "/images/Sidelight-Shutters-6.jpeg",
   },
 ];
 
@@ -118,33 +118,33 @@ export const ShuttersproductsData = [
 export const BlindsproductsData = [
   {
     _id: "1",
-    title: "Shutters",
-    image: "/images/image_1.png",
+    title: "Vertical Blinds",
+    image: "/images/Vertical-Blinds-1.jpg",
   },
   {
     _id: "2",
-    title: "Shades",
-    image: "/images/image_2.png",
+    title: "Cellular Blinds",
+    image: "/images/Cellular-Blinds-2.jpg",
   },
   {
     _id: "3",
-    title: "Blinds",
-    image: "/images/image_3.jpg",
+    title: "Vinyl Blinds",
+    image: "/images/Vinyl-Blinds-3.jpg",
   },
   {
     _id: "4",
-    title: "Retrackable Awwings",
-    image: "/images/image_4.jpg",
+    title: "Mini Blinds",
+    image: "/images/Mini-Blinds-4.jpg",
   },
     {
     _id: "5",
-    title: "Motorized Screens",
-    image: "/images/image_5.jpg",
+    title: "Blackout Blinds and Shades",
+    image: "/images/Blackout-Blinds-and-Shades-5.jpg",
   },
     {
     _id: "6",
-    title: "Draps",
-    image: "/images/image_6.jpg",
+    title: "Insulated blinds",
+    image: "/images/Insulated-blinds-6.jpeg",
   },
 ];
 
@@ -152,32 +152,27 @@ export const BlindsproductsData = [
 export const DrapesproductsData = [
   {
     _id: "1",
-    title: "Shutters",
-    image: "/images/image_1.png",
+    title: "Custom Drapes",
+    image: "/images/Motorized-Drapes-1.jpg",
   },
   {
     _id: "2",
-    title: "Shades",
-    image: "/images/image_2.png",
+    title: "Motorized Drapes",
+    image: "/images/Motorized-Drapes-2.jpg",
   },
   {
     _id: "3",
-    title: "Blinds",
-    image: "/images/image_3.jpg",
+    title: "Valances-3",
+    image: "/images/Valances-3.png",
   },
   {
     _id: "4",
-    title: "Retrackable Awwings",
-    image: "/images/image_4.jpg",
+    title: "Cornice",
+    image: "/images/Cornices-4.png",
   },
     {
     _id: "5",
-    title: "Motorized Screens",
-    image: "/images/image_5.jpg",
-  },
-    {
-    _id: "6",
-    title: "Draps",
-    image: "/images/image_6.jpg",
+    title: "Custom Drapes",
+    image: "/images/Custom-Drapes-5.png",
   },
 ];
