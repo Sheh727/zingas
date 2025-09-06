@@ -3,7 +3,7 @@
 import React from 'react'
 import { useRouter } from 'next/navigation'
 
-const ProductCard = ({ product }) => {
+const BlindsCard = ({ product }) => {
   const router = useRouter()
 
   const routes = {
@@ -44,4 +44,4 @@ const ProductCard = ({ product }) => {
   )
 }
 
-export default ProductCard
+export default BlindsCard

@@ -21,10 +21,9 @@ const Hero = () => {
           align="left"
         />
       </div>
-
-      
-      <div className="w-full lg:w-1/3 bg-[#7096d5]/70 mt-10 lg:mt-[100] lg:right-0 p-6 sm:p-8 md:p-10 lg:p-12 xl:p-16 flex items-center justify-center">
-        <div className="flex flex-col w-full max-w-md">
+       
+      <div className="absolute top-0 right-0 w-full md:w-2/3 lg:w-1/2 xl:w-1/3 h-full  bg-[#7096d5]/70 flex items-center justify-center">
+        <div className="flex flex-col px-6 py-10 md:px-10 lg:px-12 xl:px-16">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white text-center leading-tight">
             Request Free<br />
             In-Home<br />
@@ -45,8 +44,9 @@ const Hero = () => {
           </button>
         </div>
       </div>
+  
     </div>
-  );
+  )
 };
 
 export default Hero;

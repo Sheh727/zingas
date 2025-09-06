@@ -45,3 +45,139 @@ export const productsData = [
     image: "/images/image_6.jpg",
   },
 ];
+
+
+export const ShadesproductsData = [
+  {
+    _id: "1",
+    title: "Shutters",
+    image: "/images/image_1.png",
+  },
+  {
+    _id: "2",
+    title: "Shades",
+    image: "/images/image_2.png",
+  },
+  {
+    _id: "3",
+    title: "Blinds",
+    image: "/images/image_3.jpg",
+  },
+  {
+    _id: "4",
+    title: "Retrackable Awwings",
+    image: "/images/image_4.jpg",
+  },
+    {
+    _id: "5",
+    title: "Motorized Screens",
+    image: "/images/image_5.jpg",
+  },
+    {
+    _id: "6",
+    title: "Draps",
+    image: "/images/image_6.jpg",
+  },
+];
+
+
+export const ShuttersproductsData = [
+  {
+    _id: "1",
+    title: "Shutters",
+    image: "/images/image_1.png",
+  },
+  {
+    _id: "2",
+    title: "Shades",
+    image: "/images/image_2.png",
+  },
+  {
+    _id: "3",
+    title: "Blinds",
+    image: "/images/image_3.jpg",
+  },
+  {
+    _id: "4",
+    title: "Retrackable Awwings",
+    image: "/images/image_4.jpg",
+  },
+    {
+    _id: "5",
+    title: "Motorized Screens",
+    image: "/images/image_5.jpg",
+  },
+    {
+    _id: "6",
+    title: "Draps",
+    image: "/images/image_6.jpg",
+  },
+];
+
+
+export const BlindsproductsData = [
+  {
+    _id: "1",
+    title: "Shutters",
+    image: "/images/image_1.png",
+  },
+  {
+    _id: "2",
+    title: "Shades",
+    image: "/images/image_2.png",
+  },
+  {
+    _id: "3",
+    title: "Blinds",
+    image: "/images/image_3.jpg",
+  },
+  {
+    _id: "4",
+    title: "Retrackable Awwings",
+    image: "/images/image_4.jpg",
+  },
+    {
+    _id: "5",
+    title: "Motorized Screens",
+    image: "/images/image_5.jpg",
+  },
+    {
+    _id: "6",
+    title: "Draps",
+    image: "/images/image_6.jpg",
+  },
+];
+
+
+export const DrapesproductsData = [
+  {
+    _id: "1",
+    title: "Shutters",
+    image: "/images/image_1.png",
+  },
+  {
+    _id: "2",
+    title: "Shades",
+    image: "/images/image_2.png",
+  },
+  {
+    _id: "3",
+    title: "Blinds",
+    image: "/images/image_3.jpg",
+  },
+  {
+    _id: "4",
+    title: "Retrackable Awwings",
+    image: "/images/image_4.jpg",
+  },
+    {
+    _id: "5",
+    title: "Motorized Screens",
+    image: "/images/image_5.jpg",
+  },
+    {
+    _id: "6",
+    title: "Draps",
+    image: "/images/image_6.jpg",
+  },
+];
