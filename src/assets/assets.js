@@ -176,3 +176,120 @@ export const DrapesproductsData = [
     image: "/images/Custom-Drapes-5.png",
   },
 ];
+
+
+  export const imageData = {
+  Shades: {
+    title: 'Shades',
+    images: [
+      '/images/Galleryimages/Shades/Blackout-Blinds-and-Shades-2-300x202.jpg',
+      '/images/Galleryimages/Shades/Blackout-Blinds-and-Shades-3-300x200.jpg',
+          '/images/Galleryimages/Shades/Blackout-Blinds-and-Shades-5-300x200.jpg',
+              '/images/Galleryimages/Shades/Blackout-Blinds-and-Shades-6-300x137.jpg',
+              '/images/Galleryimages/Shades/Blackout-Blinds-and-Shades-8-300x192.jpg',
+      '/images/Galleryimages/Shades/Blackout-Shades-1-300x180.png',
+          '/images/Galleryimages/Shades/Blackout-Shades-3-300x200.png',
+              '/images/Galleryimages/Shades/Blackout-Shades-4-300x200.png',
+              '/images/Galleryimages/Shades/Blackout-Shades-5-300x200.png',
+      '/images/Galleryimages/Shades/Faux-Wood-Blinds-2-241x300.jpg',
+          '/images/Galleryimages/Shades/Insulated-Blinds-and-Shades-2-300x156.jpg',
+              '/images/Galleryimages/Shades/Insulated-Blinds-and-Shades-4-300x194.jpg',
+              '/images/Galleryimages/Shades/Insulated-Blinds-and-Shades-5-300x200.jpg',
+              '/images/Galleryimages/Shades/Insulated-Blinds-and-Shades-6-300x233.jpg',
+              '/images/Galleryimages/Shades/Blackout-Shades-2-300x202.png',
+    ]
+  },
+  Shutter: {
+    title: 'Shutter',
+    images: [
+             '/images/Galleryimages/Shutters/Arch-Shutters-1-300x241.jpg',
+               '/images/Galleryimages/Shutters/Arch-Shutters-2-300x180.jpg',
+                 '/images/Galleryimages/Shutters/Arch-Shutters-3-300x180.jpg',
+                   '/images/Galleryimages/Shutters/Cafe-Height-Shutters-2-1-300x180.jpg',
+                     '/images/Galleryimages/Shutters/Plantation-Shutters-1-300x187.jpg',
+                       '/images/Galleryimages/Shutters/Plantation-Shutters-2-300x209.jpg',
+                         '/images/Galleryimages/Shutters/Plantation-Shutters-3-300x199.jpg',
+                           '/images/Galleryimages/Shutters/Plantation-Shutters-3.jpg',
+                             '/images/Galleryimages/Shutters/Plantation-Shutters-6-216x300.jpg',
+                               '/images/Galleryimages/Shutters/Plantation-Shutters-7-300x200.jpg',
+                                 '/images/Galleryimages/Shutters/Plantation-Shutters-8-300x200.jpg',
+                                   '/images/Galleryimages/Shutters/Plantation-Shutters-9-300x250.jpg',
+                                     '/images/Galleryimages/Shutters/Plantation-Shutters-10-300x194.jpg',
+                                       '/images/Galleryimages/Shutters/Plantation-Shutters-11-300x194.jpg',
+                                         '/images/Galleryimages/Shutters/Real-Wood-Shutters-1-216x300.jpg',
+                                         '/images/Galleryimages/Shutters/Real-Wood-Shutters-2-1-300x200.jpg',
+                                         '/images/Galleryimages/Shutters/Real-Wood-Shutters-4-300x250.jpg',
+    ]
+  },
+  Blinds: {
+    title: 'Blinds',
+    images: ["/images/Galleryimages/Blinds/Faux-Wood-Blinds-1-300x137.jpg",
+  "/images/Galleryimages/Blinds/Faux-Wood-Blinds-2-241x300.jpg",
+  "/images/Galleryimages/Blinds/Faux-Wood-Blinds-3-300x240.jpg",
+  "/images/Galleryimages/Blinds/Faux-Wood-Blinds-4-300x180.jpg",
+  "/images/Galleryimages/Blinds/Faux-Wood-Blinds-5-300x180.jpg",
+  "/images/Galleryimages/Blinds/Faux-Wood-Blinds-6-300x180.jpg",
+  "/images/Galleryimages/Blinds/Faux-Wood-Blinds-7-300x180.jpg",
+  "/images/Galleryimages/Blinds/Faux-Wood-Blinds-8-300x180.jpg",
+  "/images/Galleryimages/Blinds/Faux-Wood-Blinds-9-300x180.jpg",
+  "/images/Galleryimages/Blinds/Faux-Wood-Blinds-10-300x137.jpg",
+      '/images/Galleryimages/Blinds/Faux-Wood-Blinds-12-300x137.jpg' ,
+      '/images/Galleryimages/Blinds/Faux-Wood-Blinds-13-300x137.jpg' ,
+      '/images/Galleryimages/Blinds/Faux-Wood-Blinds-15-300x137.jpg' 
+      ,'/images/Galleryimages/Blinds/Faux-Wood-Blinds-16-300x200.jpg',
+       '/images/Galleryimages/Blinds/Faux-Wood-Blinds-17-300x205.jpg'
+       ,'/images/Galleryimages/Blinds/Faux-Wood-Blinds-19-300x201.jpg' ,
+      '/images/Galleryimages/Blinds/Faux-Wood-Blinds-20-300x205.jpg']
+  },
+  Drapes: {
+    title: 'Drapes',
+    images: ["/images/Galleryimages/Draps/Cornices-1-300x180.png",
+  "/images/Galleryimages/Draps/Custom-Drapes-4.png",
+  "/images/Galleryimages/Draps/Custom-Drapes-5-1024x695.png",
+  "/images/Galleryimages/Draps/Custom-Drapes-6.png",
+  "/images/Galleryimages/Draps/Custom-Drapes-7.png",
+  "/images/Galleryimages/Draps/Custom-Drapes-8.png",
+  "/images/Galleryimages/Draps/Custom-Drapes-9.png",
+  "/images/Galleryimages/Draps/Custom-Drapes-10-1024x681.png",
+  "/images/Galleryimages/Draps/Custom-Drapes-11-1024x578.png",
+  "/images/Galleryimages/Draps/Custom-Drapes-12-1024x683.png",
+  "/images/Galleryimages/Draps/Custom-Drapes-13-1024x616.png",
+  "/images/Galleryimages/Draps/Custom-Drapes-14-1024x616.png",
+  "/images/Galleryimages/Draps/Custom-Drapes-15-1024x616.png",
+  "/images/Galleryimages/Draps/Custom-Drapes-16-1024x616.png",
+  "/images/Galleryimages/Draps/GSD0107R080516KA.png",
+  "/images/Galleryimages/Draps/Motorized-Drapes-1-1024x616.jpg",
+  "/images/Galleryimages/Draps/Motorized-Drapes-2-1024x616.jpg",
+  "/images/Galleryimages/Draps/Motorized-Drapes-3-1024x616.jpg",
+  "/images/Galleryimages/Draps/Motorized-Drapes-4-1024x683.jpg",
+  "/images/Galleryimages/Draps/Valances-2-1024x616.png",
+  "/images/Galleryimages/Draps/Valances-3-1024x616.png"
+
+]
+  },
+  MotorizedScreens: {
+    title: 'Motorized Screens',
+    images: [ "/images/Galleryimages/Motorized Screens/1-1024x768.jpg",
+  "/images/Galleryimages/Motorized Screens/2-1024x768.jpg",
+  "/images/Galleryimages/Motorized Screens/3-1024x768.jpg",
+  "/images/Galleryimages/Motorized Screens/5-1024x642.jpg",
+  "/images/Galleryimages/Motorized Screens/4-1024x768.jpg",
+  "/images/Galleryimages/Motorized Screens/6-1-1024x768.jpg",
+  "/images/Galleryimages/Motorized Screens/8-1024x768.png",
+  "/images/Galleryimages/Motorized Screens/9-1024x768.jpg",
+  "/images/Galleryimages/Motorized Screens/10-1-1024x585.jpg",
+  "/images/Galleryimages/Motorized Screens/11-1024x768.jpg",
+  "/images/Galleryimages/Motorized Screens/12-1024x768.jpg",
+  "/images/Galleryimages/Motorized Screens/13-1024x502.jpg",
+  "/images/Galleryimages/Motorized Screens/14-1024x785.jpg",
+  "/images/Galleryimages/Motorized Screens/15-1024x768.jpg",
+  "/images/Galleryimages/Motorized Screens/16-1024x768.jpg",
+  "/images/Galleryimages/Motorized Screens/17-1-1024x768.jpg",
+  "/images/Galleryimages/Motorized Screens/18-1024x768.jpg",
+  "/images/Galleryimages/Motorized Screens/19-984x1024.jpg",
+  "/images/Galleryimages/Motorized Screens/20-1024x768.jpg",
+  "/images/Galleryimages/Motorized Screens/21-1024x652.jpg"
+
+]
+  }
+};

@@ -1,8 +1,15 @@
+"use client"
 import React from 'react';
+import { motion } from 'framer-motion';
 
 const Consult = () => {
   return (
-    <div
+    <motion.div
+    initial={{ opacity: 0, scale: 1.05 }}
+  whileInView={{ opacity: 1, scale: 1 }}
+  transition={{ duration: 1.2, ease: 'easeOut' }}
+  viewport={{ once: true }}
+
       className="relative flex flex-col items-start justify-center px-6 md:px-16 lg:px-24 xl:px-32 mt-10 mb-10 text-black h-[800px] w-full"
       style={{
         backgroundImage: "url('/images/consult bg.jpg')",
@@ -44,7 +51,7 @@ const Consult = () => {
           </button>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

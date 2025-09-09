@@ -7,10 +7,12 @@ const BlindsCard = ({ product }) => {
   const router = useRouter()
 
   const routes = {
-    '1': '/Shutters',
-    '2': '/Shades',
-    '3': '/Blinds',
-    '6': '/Draps',
+    '1': '/Blindspages/1',
+    '2': '/Blindspages/2',
+    '3': '/Blindspages/3',
+    '4': '/Blindspages/4',
+    '5': '/Blindspages/5',
+    '6': '/Blindspages/6',
   
   }
 

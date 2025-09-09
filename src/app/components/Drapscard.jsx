@@ -7,10 +7,12 @@ const Drapscard = ({ product }) => {
   const router = useRouter()
 
   const routes = {
-    '1': '/Shutters',
-    '2': '/Shades',
-    '3': '/Blinds',
-    '6': '/Draps',
+    '1': '/Drapspages/1',
+    '2': '/Drapspages/2',
+    '3': '/Drapspages/3',
+    '4': '/Drapspages/4',
+    '5': '/Drapspages/5',
+    '6': '/Drapspages/6',
   
   }
 

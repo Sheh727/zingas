@@ -2,25 +2,34 @@
 import React from 'react'
 import { assets, BlindsproductsData} from '@/assets/assets'
 import Blindscard from './Blindscard'
+import { motion } from 'framer-motion';
 
 const BlindsProducts = () => {
 
   return (
-    <div>
-      <div className='flex flex-col items-center py-20 bg-gray-100 max-md:px-4'>
+    <motion.div>
+      <motion.div
+       initial={{opacity: 0, y:40 }}
+      whileInView={{opacity: 1, y:0 }}
+       transition={{duration: 1, ease: "easeOut"}}
+       className='flex flex-col items-center py-20 bg-gray-100 max-md:px-4'>
        <h6 className='text-4xl font-semibold'> Related Products</h6> 
-      </div>
+      </motion.div>
       <div className='px-6 md:px-16 lg:px-24 xl:px-32 mt-10'></div>
-      <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-4
-      xl:px-20 max-w-7xl mx-auto'>
+      <motion.div 
+      initial={{opacity: 0, y:100 }}
+            whileInView={{opacity: 1, y:0 }}
+             transition={{delay:0.5,duration: 1}}
+      className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-4 
+            xs: px-5 sm:px-7 md:px-9 lg:px-10 xl:px-15 max-w-7xl mx-auto'>
       {BlindsproductsData.map((product,index)=>(
         <div key={index}>
           <Blindscard product={product}/>
           </div>
       ))}
-          </div>
+          </motion.div>
       
-    </div>
+    </motion.div>
   )
 }
 

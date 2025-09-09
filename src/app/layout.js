@@ -1,5 +1,6 @@
 import { Outfit, Ovo } from "next/font/google";
 import "./globals.css";
+import { MotionConfig } from "framer-motion";
 
 const outfit = Outfit({
   subsets: ["latin"], weight: ["400","500","600","700"]
@@ -22,7 +23,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${outfit.className} ${ovo.className} antialiased leading-8 overflow-x-hidden`}
       >
+        <MotionConfig viewport={{once: true}}>
         {children}
+        </MotionConfig>
       </body>
     </html>
   );

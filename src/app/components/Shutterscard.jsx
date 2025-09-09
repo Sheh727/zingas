@@ -7,10 +7,12 @@ const ShuttersCard = ({ product }) => {
   const router = useRouter()
 
   const routes = {
-    '1': '/Shutters',
-    '2': '/Shades',
-    '3': '/Blinds',
-    '6': '/Draps',
+    '1': '/Shutterspages/1',
+    '2': '/Shutterspages/2',
+    '3': '/Shutterspages/3',
+    '4': '/Shutterpages/4',
+    '5': '/Shutterspages/5',
+    '6': '/Shutterspages/6',
   
   }
 

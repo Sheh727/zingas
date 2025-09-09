@@ -1,8 +1,13 @@
+"use client"
 import React from 'react';
-
+import { motion } from 'framer-motion';
 const Banner = () => {
   return (
-    <div
+    <motion.div
+    initial={{ opacity: 0, scale: 1.05 }}
+  whileInView={{ opacity: 1, scale: 1 }}
+  transition={{ duration: 1.2, ease: 'easeOut' }}
+  viewport={{ once: true }}
       className="relative h-[450px] w-full mt-5"
       style={{
         backgroundImage: "url('/images/banner bg.jpg')",
@@ -23,7 +28,7 @@ const Banner = () => {
         </button>
 
       </div>
-    </div>
+    </motion.div>
   );
 };
 
