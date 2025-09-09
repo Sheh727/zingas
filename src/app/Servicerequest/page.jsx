@@ -27,15 +27,16 @@ const page = () => {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}> 
-       
+       <div className="absolute inset-0 bg-[#656e7d] opacity-35 z-5"></div>
+
       <motion.div 
        initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, ease: 'easeOut' }}
-      className="w-full mt-[200px] lg:w-2/3">
+      className="w-full mt-[200px] lg:w-2/3 z-10">
         <Title
-          title="Book FREE In-Home Consultation"
-          subtitle="Find a date & time that works best for your schedule! Book a No-Pressure, In-Home Appointment that is designed to find the perfect products for your home"
+          title="Service Request"
+          subtitle="Backed by a lifetime warranty, you will find our products are of the highest quality, yet cost less than going to Lowe’s or Home Depot. With the convenience of in-home appointments we fit your time and budget."
           align="left"
         />
       </motion.div>

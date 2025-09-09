@@ -27,15 +27,15 @@ const page = () => {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}>
-       
+       <div className="absolute inset-0 bg-[#656e7d] opacity-30 z-0"></div>
       <motion.div
        initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, ease: 'easeOut' }}
-       className="w-full mt-[200px] lg:w-2/3">
+       className="w-full mt-[200px] lg:w-2/3 z-5">
         <Title
-          title="Book FREE In-Home Consultation"
-          subtitle="Find a date & time that works best for your schedule! Book a No-Pressure, In-Home Appointment that is designed to find the perfect products for your home"
+          title="Financing"
+          subtitle="We offer competitive financing offers to fit your budget and project"
           align="left"
         />
       </motion.div>

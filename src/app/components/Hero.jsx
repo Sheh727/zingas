@@ -18,15 +18,15 @@ const Hero = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-    
+  
       <motion.div
-        className="w-full mt-24 lg:mt-[200px] lg:w-2/3"
+        className="w-full mt-24 lg:mt-[200px] lg:w-2/3 z-10"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, ease: 'easeOut' }}
       >
           <h1
-        className='font-bold text-4xl sm:text-3xl xs:text-2xl md:text-[50px] text-white'
+        className='font-bold text-4xl sm:text-3xl xs:text-2xl md:text-[50px] text-white   '
       >
       Expertly Shaded - <br/>Inside & Out
       </h1>
@@ -36,12 +36,12 @@ const Hero = () => {
           align="left"
         />
       </motion.div>
-
+  <div className="absolute inset-0 bg-[#656e7d] opacity-30 z-0"></div>
       <motion.div
         initial={{ opacity: 0, x: 100 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1.2, ease: 'easeOut', delay: 0.3 }}
-        className="w-full lg:absolute lg:top-0 lg:right-0  lg:w-1/2 xl:w-1/3 h-auto lg:h-full md:h-[350px]  bg-[#7096d5]/70 flex items-center justify-center  lg:mt-0 "
+        className="w-full lg:absolute lg:top-0 lg:right-0  lg:w-1/2 xl:w-1/3 h-auto lg:h-full md:h-[350px]  bg-[#7096d5]/70 flex items-center justify-center  lg:mt-0  z-11"
       >
         <div className="flex flex-col px-6 py-10  md:px-8 lg:px-10 xl:px-16">
           <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-white text-center leading-tight">

@@ -25,12 +25,12 @@ const page = () => {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}>
-       
+       <div className="absolute inset-0 bg-[#656e7d] opacity-30 z-0"></div>
       <motion.div
        initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, ease: 'easeOut' }}
-       className="w-full mt-[200px] lg:w-2/3">
+       className="w-full mt-[200px] lg:w-2/3 z-5">
         <Title
           title="Blinds"
           subtitle="Backed by a lifetime warranty, you will find our products are of the highest quality, yet cost less than going to Lowe’s or Home Depot. With the convenience of in-home appointments we fit your time and budget.

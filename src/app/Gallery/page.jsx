@@ -28,15 +28,15 @@ const page = () => {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}>
-       
+       <div className="absolute inset-0 bg-[#656e7d] opacity-30 z-0"></div>
       <motion.div 
        initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, ease: 'easeOut' }}
-      className="w-full mt-[200px] lg:w-2/3">
+      className="w-full mt-[200px] lg:w-2/3 z-5">
         <Title
-          title="Book FREE In-Home Consultation"
-          subtitle="Find a date & time that works best for your schedule! Book a No-Pressure, In-Home Appointment that is designed to find the perfect products for your home"
+          title="A Little Inspiration"
+          subtitle="Browse through some of the popular trends and ideas, but if you don’t see something you’re specifically looking for we can still bring your ideas to life. There isn’t a window treatment we haven’t seen or done!"
           align="left"
         />
       </motion.div>

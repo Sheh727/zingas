@@ -32,7 +32,7 @@ const page = () => {
        initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, ease: 'easeOut' }}
-      className="w-full mt-[200px] lg:w-2/3">
+      className="w-full mt-[200px] lg:w-2/3 ">
         <Title
           title="Book FREE In-Home Consultation"
           subtitle="Find a date & time that works best for your schedule! Book a No-Pressure, In-Home Appointment that is designed to find the perfect products for your home"

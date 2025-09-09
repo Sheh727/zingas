@@ -62,11 +62,12 @@ export default function Page({ params }) {
           backgroundRepeat: 'no-repeat',
         }}
       >
+        <div className="absolute inset-0 bg-[#656e7d] opacity-30 z-0"></div>
         <motion.div
          initial={{ opacity: 0, x: 100 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1.2, ease: 'easeOut', delay: 0.3 }}
-         className="w-full mt-[200px] lg:w-2/3">
+         className="w-full mt-[200px] lg:w-2/3 z-5">
           <Title
             title={content.title}
             subtitle={content.subtitle}
