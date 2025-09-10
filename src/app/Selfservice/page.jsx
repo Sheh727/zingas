@@ -6,6 +6,7 @@ import Title from '../components/Title'
 import Consult from '../components/Consult'
 import Footer from '../components/Footer'
 import Testomials from '../components/Testomials'
+import Custom from '../components/Custom'
 import { motion } from 'framer-motion'
 const page = () => {
   return (
@@ -40,6 +41,7 @@ const page = () => {
       
     <Consult/>
     <Testomials/>
+    <Custom/>
     <Footer/>
     </div>
   )

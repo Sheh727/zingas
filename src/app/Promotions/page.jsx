@@ -1,7 +1,6 @@
 "use client"
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Navbuttons from '../components/Navbuttons'
 import Title from '../components/Title'
 import Consult from '../components/Consult'
 import Banner from '../components/Banner'
@@ -13,7 +12,7 @@ import { motion } from 'framer-motion'
 const page = () => {
   return (
     <div>
-    <Navbuttons/>
+  
     <Navbar/>
     
     <motion.div 
@@ -47,7 +46,15 @@ const page = () => {
    <div className="absolute inset-0 bg-[#656e7d] opacity-35 z-5"></div>
 
     </motion.div>
-    
+    <div className="flex flex-col md:flex-row items-center justify-center bg-gray-100 p-8 md:p-16  ">
+      
+      <div className="max-w-xl mt-8">
+        <h2 className="text-3xl md:text-3xl font-bold text-black mb-6">
+          Buy 1 Get 1 50% OFF Everything*
+        </h2>
+        <p className='text-gray-500'>* Does not include Pergolas. Not to be combined with other offers. New estimates only. Must meet minimum order requirement. Offer Ends September 30th</p>
+        </div>
+        </div>
     <Products/>
     <Consult/>
     <Banner/>

@@ -1,13 +1,13 @@
 "use client"
 import React from 'react'
 import Navbar from '@/app/components/Navbar'
-import Navbuttons from '@/app/components/Navbuttons'
 import Title from '@/app/components/Title'
 import Consult from '@/app/components/Consult'
 import Banner from '@/app/components/Banner'
 import Footer from '@/app/components/Footer'
 import Testomials from '@/app/components/Testomials'
 import { motion } from 'framer-motion'
+import Custom from '@/app/components/Custom'
 const contentMap = {
   '1': {
     title: 'Custom Drapes',
@@ -51,7 +51,7 @@ export default function Page({ params }) {
 
   return (
     <div>
-      <Navbuttons />
+      
       <Navbar />
       <div
         className="relative flex flex-col lg:flex-row items-start justify-between px-4 sm:px-6 md:px-16 lg:px-24 xl:px-32 text-black min-h-screen h-screen w-full py-10"
@@ -79,6 +79,7 @@ export default function Page({ params }) {
       <Banner />
       <Consult />
       <Testomials />
+      <Custom/>
       <Footer />
     </div>
   )

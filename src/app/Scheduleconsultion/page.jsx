@@ -1,7 +1,6 @@
 "use client"
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Navbuttons from '../components/Navbuttons'
 import Title from '../components/Title'
 import Consult from '../components/Consult'
 import Banner from '../components/Banner'

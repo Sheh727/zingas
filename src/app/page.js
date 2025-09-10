@@ -6,14 +6,14 @@ import Consult from "./components/Consult";
 import Products from "./components/Products";
 import Banner from "./components/Banner";
 import About from "./components/About";
-import Navbuttons from "./components/Navbuttons";
 import Testomials from "./components/Testomials";
 import Gallery from "./components/Gallery";
+import Custom from "./components/Custom";
 
 export default function Home() {
   return (
     <>
-    <Navbuttons/>
+    
     <Navbar/>
     <Hero/> 
     <Gallery/>
@@ -22,6 +22,7 @@ export default function Home() {
     <Banner/>
     <About/>
     <Testomials/>
+    <Custom/>
     <Footer/>
     </>
   );

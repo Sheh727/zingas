@@ -1,7 +1,6 @@
 "use client"
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Navbuttons from '../components/Navbuttons'
 import Consult from '../components/Consult'
 import Banner from '../components/Banner'
 import About from '../components/About'
@@ -15,7 +14,7 @@ import GallerySwitcher from '../components/GallerySwitcher'
 const page = () => {
   return (
     <div>
-    <Navbuttons/>
+    
     <Navbar/>
      <motion.div 
       initial={{ opacity: 0, scale: 1.05 }}

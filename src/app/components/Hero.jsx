@@ -12,7 +12,7 @@ const Hero = () => {
       viewport={{ once: true }}
       className="relative flex flex-col lg:flex-row items-start justify-between px-4 sm:px-6 md:px-16 lg:px-24 xl:px-32 text-black min-h-screen h-[120vh] w-full py-10 "
       style={{
-        backgroundImage: "url('/images/Herosection bg.jpg')",
+        backgroundImage: "url('/images/h-bg.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -41,32 +41,32 @@ const Hero = () => {
         initial={{ opacity: 0, x: 100 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1.2, ease: 'easeOut', delay: 0.3 }}
-        className="w-full lg:absolute lg:top-0 lg:right-0  lg:w-1/2 xl:w-1/3 h-auto lg:h-full md:h-[350px]  bg-[#7096d5]/70 flex items-center justify-center  lg:mt-0  z-11"
+        className="w-full lg:absolute lg:top-0 lg:right-0  lg:w-1/2 xl:w-1/3 h-auto lg:h-full md:h-[350px]  bg-yellow-50/70 flex items-center justify-center  lg:mt-0  z-11"
       >
         <div className="flex flex-col px-6 py-10  md:px-8 lg:px-10 xl:px-16">
-          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-white text-center leading-tight">
+          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-black text-center leading-tight">
             Request Free<br />
             In-Home<br />
             Consultation
           </h1>
-          <p className="mt-6 text-base sm:text-lg md:text-xl text-center font-semibold text-white">
+          <p className="mt-6 text-base sm:text-lg md:text-xl text-center font-semibold text-black">
             Schedule Two Ways
           </p>
 
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="w-full mt-4 bg-[#535fab] text-white font-semibold py-3 px-6 rounded-lg hover:bg-blue-100 hover:text-black transition duration-300 text-sm sm:text-base"
+            className="w-full mt-4 bg-blue-400 text-black font-semibold py-3 px-6 rounded-lg hover:bg-blue-100 hover:text-black transition duration-300 text-sm sm:text-base"
           >
             Call 844-494-6427
           </motion.button>
 
-          <p className="mt-4 text-base sm:text-lg md:text-xl text-center font-semibold text-white">or</p>
+          <p className="mt-4 text-base sm:text-lg md:text-xl text-center font-semibold text-black">or</p>
 
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="w-full mt-4 bg-[#c9b60c] text-white font-semibold py-3 px-6 rounded-lg hover:bg-yellow-100 hover:text-black transition duration-300 text-sm sm:text-base"
+            className="w-full mt-4 bg-[#c9b60c] text-black font-semibold py-3 px-6 rounded-lg hover:bg-yellow-100 hover:text-black transition duration-300 text-sm sm:text-base"
           >
             Book Online
           </motion.button>

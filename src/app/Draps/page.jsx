@@ -1,7 +1,6 @@
 "use client"
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Navbuttons from '../components/Navbuttons'
 import Title from '../components/Title'
 import Consult from '../components/Consult'
 import Banner from '../components/Banner'
@@ -9,10 +8,11 @@ import Footer from '../components/Footer'
 import Testomials from '../components/Testomials'
 import DrapsProducts from '../components/Drapsproduct'
 import { motion } from 'framer-motion'
+import Custom from '../components/Custom'
 const page = () => {
   return (
     <div>
-    <Navbuttons/>
+    
     <Navbar/>
     <motion.div 
     initial={{ opacity: 0, scale: 1.05 }}
@@ -45,6 +45,7 @@ const page = () => {
     <Consult/>
     <Banner/>
     <Testomials/>
+    <Custom/>
     <Footer/>
     </div>
   )

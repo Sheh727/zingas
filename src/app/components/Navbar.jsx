@@ -39,6 +39,8 @@ const mobileDropdownRef = useRef(null);
                 if (option === 'Draps') router.push('/Draps');
                  if (option === 'Blinds') router.push('/Blinds');
                   if (option === 'Gallery') router.push('/Gallery');
+                    if (option === 'Contact Us') router.push('/ContactUs');
+                      if (option === 'Refferal') router.push('/Refferal');
     setActiveMenu(null);
   };
 const handleSelect = (menuName, option) => {
@@ -53,6 +55,8 @@ const handleSelect = (menuName, option) => {
                 if (option === 'Draps') router.push('/Draps');
                  if (option === 'Blinds') router.push('/Blinds');
                   if (option === 'Gallery') router.push('/Gallery');
+                  if (option === 'Contact Us') router.push('/ContactUs');
+                      if (option === 'Refferal') router.push('/Refferal');
     setActiveDropdown(null);
       
   };
@@ -98,7 +102,7 @@ const handleSelect = (menuName, option) => {
     initial={{y: -20, opacity:0 }}
      animate={{y:0 , opacity:1 }}
       transition={{ duration: 0.2}}>
-      <nav className='w-full fixed pt-[30px] px-5 lg:px-8 xl:px-[8%] py-3 flex items-center justify-between bg-white z-999'>
+      <nav className='w-full fixed pt-[10px] px-5 lg:px-8 xl:px-[8%] py-3 flex items-center justify-between bg-white z-999'>
         <Link href='/'>
           <MotionImage whileHover={{scale: 1.05}} src={assets.logo} alt='' className='w-28 cursor-pointer mr-14' />
         </Link>
@@ -135,17 +139,17 @@ const handleSelect = (menuName, option) => {
           <div className='flex gap-2 items-center'>
       <button
         onClick={() => router.push("/Scheduleconsultion")}
-        className='px-2 h-[32px] bg-[#535fab] hover:bg-blue-800 text-white text-xs font-medium rounded transition duration-300'
+        className='px-2 h-[32px] bg-yellow-300 hover:bg-yellow-500 text-black text-xs font-medium rounded transition duration-300'
       >
         Schedule
       </button>
       <button
-        className='px-2 h-[32px] bg-[#535fab] hover:bg-blue-800 text-white text-xs font-medium rounded transition duration-300'
+        className='px-2 h-[32px] bg-yellow-300 hover:bg-yellow-500 text-black text-xs font-medium rounded transition duration-300'
       >
         Pay
       </button>
       <button
-        className='px-2 h-[32px] bg-[#535fab] hover:bg-blue-800 text-white text-xs font-medium rounded transition duration-300'
+        className='px-2 h-[32px] bg-yellow-300 hover:bg-yellow-500 text-black text-xs font-medium rounded transition duration-300'
       >
         844-494-6427
       </button>
