@@ -3,12 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-      "postinstall": "npm install --legacy-peer-deps",
+    "postinstall": "npm install --legacy-peer-deps",
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint"
-    
   },
   "dependencies": {
     "framer-motion": "^12.23.12",
@@ -17,7 +16,6 @@
     "next": "15.5.2",
     "react": "19.1.0",
     "react-chatbotify": "^2.3.0",
-    "react-custom-scrollbars": "^4.2.1",
     "react-dom": "^19.1.0",
     "react-image": "^4.1.0",
     "react-image-lightbox": "^5.1.4",
