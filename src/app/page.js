@@ -10,6 +10,7 @@ import Testomials from "./components/Testomials";
 import Gallery from "./components/Gallery";
 
 import Custom from "./components/Custom";
+import Carousel from "./components/Carousel";
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
     <Consult/>
     <Banner/>
     <About/>
-    
+    <Carousel/>
     <Testomials/>
     <Custom/>
     <Footer/>
