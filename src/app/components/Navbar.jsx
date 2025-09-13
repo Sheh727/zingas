@@ -148,15 +148,21 @@ const handleSelect = (menuName, option) => {
       >
         Pay
       </button>
-      <div className='flex flex-col'>
-      <button
-        className='px-2 h-[32px] bg-yellow-300 hover:bg-yellow-500 text-black hover:cursor-pointer text-xs font-medium rounded transition duration-300'
-      >
-        <div className='flex'>
-        <img width="15" height="15" src="https://img.icons8.com/ios-filled/50/1A1A1A/phone.png" alt="phone"/>
-      <span className='ml-1'>  844-494-6427 </span></div>
-      </button>  </div>
+    <div className='flex flex-col items-center sm:items-start'>
+  <button
+    className='px-2  xl:h-[32px] sm:px-4 sm:h-[40px] bg-yellow-300 hover:bg-yellow-500 text-black hover:cursor-pointer text-[10px] sm:text-xs font-medium rounded transition duration-300 w-full sm:w-auto'
+  >
+    <div className='flex items-center justify-center sm:justify-start'>
+      <img
+        width="15"
+        height="15"
+        src="https://img.icons8.com/ios-filled/50/1A1A1A/phone.png"
+        alt="phone"
+      />
+      <span className='ml-1 sm:ml-2 whitespace-nowrap'>844-494-6427</span>
     </div>
+  </button></div>
+</div>
         <div className='flex items-center gap-4'>
           <button className='block md:hidden ml-3' onClick={openMenu}>
             <Image src={assets.menu_black} alt='' className='w-6' />

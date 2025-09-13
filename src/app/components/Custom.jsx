@@ -52,7 +52,7 @@ const Custom = () => {
             className="grid grid-cols-1 lg:grid-cols-2 items-center  "
           >
             
-            <div className="rounded-2xl overflow-hidden shadow-md w-100 h-40 ">
+            <div className="rounded-2xl overflow-hidden shadow-md xl:w-100 sm:w-auto xs:w-auto h-40 ">
               <img src={step.image} alt={step.title} className="  " />
             </div>
             
