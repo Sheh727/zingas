@@ -10,7 +10,7 @@ import Testomials from '../components/Testomials'
 import Custom from '../components/Custom'
 import Products from '../components/Products'
 import { motion } from 'framer-motion'
-import Carousel from '../components/Carousel'
+
 const page = () => {
   return (
     <div>
@@ -60,8 +60,7 @@ const page = () => {
         </div>
     <Products/>
     <Consult/>
-   
-    <Carousel/>
+
      <Banner/>
     <About/>
     <Testomials/>

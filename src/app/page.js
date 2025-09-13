@@ -8,7 +8,7 @@ import Banner from "./components/Banner";
 import About from "./components/About";
 import Testomials from "./components/Testomials";
 import Gallery from "./components/Gallery";
-import Carousel from "./components/Carousel"
+
 import Custom from "./components/Custom";
 
 export default function Home() {
@@ -22,7 +22,7 @@ export default function Home() {
     <Consult/>
     <Banner/>
     <About/>
-    <Carousel/>
+    
     <Testomials/>
     <Custom/>
     <Footer/>
