@@ -8,7 +8,9 @@ import Banner from '../components/Banner'
 import Footer from '../components/Footer'
 import Testomials from '../components/Testomials'
 import ShadesProducts from '../components/Shadesproduct'
+import Content from '../components/Content'
 import { motion } from 'framer-motion'
+import Custom from '../components/Custom'
 const page = () => {
   return (
     <div>
@@ -16,7 +18,8 @@ const page = () => {
     <Navbar/>
     <motion.div
     initial={{ opacity: 0, scale: 1.05 }}
-  whileInView={{ opacity: 1, scale: 1 }}
+animate={{ opacity: 1, scale: 1 }}
+
   transition={{ duration: 1.2, ease: 'easeOut' }}
      className="relative flex flex-col lg:flex-row items-start justify-between px-4 sm:px-6 md:px-16 lg:px-24 xl:px-32 text-black min-h-screen h-screen w-full py-10"
       style={{
@@ -39,11 +42,20 @@ const page = () => {
       </motion.div>
       
     </motion.div>
-  
+      <Content heading="Discover the Perfect Shades at Zinga’s" content="Upgrade your home with our stylish and versatile window shades, designed to elevate your living spaces while providing optimal light control and privacy. At Zinga’s, we offer an extensive collection of high-quality shades to match your preferences and complement your interior design."
+      heading2="Why Choose Zinga’s for Your Window Shades?" 
+      listItems={["Remarkable assortment of shutters: Delve into our diverse collection of materials, colors, and designs to discover the ideal window shutters for your residence.",
+  "Energy-conscious shutters: Our shutters contribute to energy efficiency by insulating your home and reducing dependence on artificial lighting.",
+  "Long-lasting and simple to maintain: Constructed from superior materials, our window shutters offer durability and ease of cleaning.",
+  "Adaptable shutters: Tailor your window shutters with a variety of customization options to reflect your unique style and requirements.",
+  "Expert assistance for your shutters: Our team of skilled professionals supports you throughout the process, from consultation to installation."
+      ]} content2="Experience the transformative impact of our exquisite window shutters and elevate your home’s aesthetics and comfort. Schedule a Consultation today to schedule a complimentary in-home consultation!"/>
     <ShadesProducts/>        
-    <Consult/>
     <Banner/>
+    <Consult/>
+    
     <Testomials/>
+
     <Footer/>
     </div>
   )

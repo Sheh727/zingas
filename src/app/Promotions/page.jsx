@@ -7,8 +7,10 @@ import Banner from '../components/Banner'
 import About from '../components/About'
 import Footer from '../components/Footer'
 import Testomials from '../components/Testomials'
+import Custom from '../components/Custom'
 import Products from '../components/Products'
 import { motion } from 'framer-motion'
+import Carousel from '../components/Carousel'
 const page = () => {
   return (
     <div>
@@ -17,7 +19,8 @@ const page = () => {
     
     <motion.div 
      initial={{ opacity: 0, scale: 1.05 }}
-  whileInView={{ opacity: 1, scale: 1 }}
+ animate={{ opacity: 1, scale: 1 }}
+
   transition={{ duration: 1.2, ease: 'easeOut' }}
     className="relative flex flex-col lg:flex-row items-start justify-between px-4 sm:px-6 md:px-16 lg:px-24 xl:px-32 text-black min-h-screen h-screen w-full py-10 "
       style={{
@@ -57,7 +60,9 @@ const page = () => {
         </div>
     <Products/>
     <Consult/>
-    <Banner/>
+   
+    <Carousel/>
+     <Banner/>
     <About/>
     <Testomials/>
     <Footer/>

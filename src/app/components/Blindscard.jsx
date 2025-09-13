@@ -26,23 +26,18 @@ const BlindsCard = ({ product }) => {
   }
 
   return (
-    <div
-      onClick={() => handleOptionClick(product._id)}
-      className='group rounded-xl overflow-hidden shadow-lg hover:-translate-y-1 transition-all duration-500 bg-[#7096d5] cursor-pointer'
-    >
-      <div className='h-48'>
+    <div onClick={() => handleOptionClick(product._id)} className=' relative h-60 w-95  group overflow-hidden rounded-xl shadow-lg hover:-translate-y-1 transition-all duration-500 cursor-pointer'>
         <img
           src={product.image}
           alt='Product'
           className='w-full h-full object-cover transition-transform duration-500 group-hover:scale-105'
         />
+        <div className="absolute bottom-0 left-0 right-0 h-10 group-hover:h-full bg-yellow-50/70 z-10 transition-all duration-500 ease-in-out flex items-end group-hover:items-center">
+          <h3 className='text-2xl text-black text-center font-medium w-full'>
+            {product.title}
+          </h3>
+        </div>
       </div>
-      <div className='mb-2'>
-        <h3 className='text-2xl text-white text-center font-medium'>
-          {product.title}
-        </h3>
-      </div>
-    </div>
   )
 }
 

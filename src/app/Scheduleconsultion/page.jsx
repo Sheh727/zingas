@@ -9,14 +9,17 @@ import Footer from '../components/Footer'
 import Testomials from '../components/Testomials'
 import Products from '../components/Products'
 import { motion } from 'framer-motion'
+import Custom from '../components/Custom'
+import Content from '../components/Content'
 const page = () => {
   return (
     <div>
-    <Navbuttons/>
+    
     <Navbar/>
     <motion.div 
     initial={{ opacity: 0, scale: 1.05 }}
-  whileInView={{ opacity: 1, scale: 1 }}
+  animate={{ opacity: 1, scale: 1 }}
+
   transition={{ duration: 1.2, ease: 'easeOut' }}
   viewport={{ once: true }}
     className="relative flex flex-col lg:flex-row items-start justify-between px-4 sm:px-6 md:px-16 lg:px-24 xl:px-32 text-black min-h-screen h-screen w-full py-10"
@@ -57,7 +60,7 @@ const page = () => {
                 </div>
 
  <input type="radio" id="YES" name="yes" value=""/>
-  <label for="Yes" className='ml-2'>Yes</label>
+  <label htmlFor="Yes" className='ml-2'>Yes</label>
 <h1 className="text-xs text-gray-500 pb-10 text-center">By checking this box, I consent to receive SMS messages from Zinga's related to Appts at the phone number provided above. Message frequency may vary. Data rates may apply. For assistance, reply HELP. Reply STOP to opt out of receiving text messages. Please review our Privacy Policy and Terms & Conditions.</h1>
         
               
@@ -71,9 +74,13 @@ const page = () => {
             </div>
         </form>
     </div>
+    <Content heading="Design" content="Our designers meet with you in your home and will show you physical samples of each type of window treatment we offer and sample fabrics to match. Our #1 goal of the appointment is to educate you on what type of window treatments would be best for your home based on your needs."
+    heading2="Measure" content2="Custom window treatments require precise measurements. Take the worry out of measuring wrong. We guarantee a perfect fit with your blinds, curtains and drapes. We take measurements of all your windows and price the window treatments accordingly. Only pay for what you need."
+    heading3="No Pressure Quote" content3="We will provide you a no-pressure quote while at you’re home. We can give you multiple product options and answer and questions you may have so you can make a decision while we are there or at a later time that is more convenient to you!"/>
     <Products/>
+     <Banner/>
     <Consult/>
-    <Banner/>
+   
     <About/>
     <Testomials/>
     <Footer/>

@@ -8,7 +8,7 @@ import About from '../components/About'
 import Footer from '../components/Footer'
 import Testomials from '../components/Testomials'
 import Products from '../components/Products'
-import customwindow from '../components/Custom'
+import Custom from '../components/Custom'
 import { motion } from 'framer-motion'
 const page = () => {
   return (
@@ -17,7 +17,8 @@ const page = () => {
     <Navbar/>
     <motion.div
     initial={{ opacity: 0, scale: 1.05 }}
-  whileInView={{ opacity: 1, scale: 1 }}
+  animate={{ opacity: 1, scale: 1 }}
+
   transition={{ duration: 1.2, ease: 'easeOut' }}
 
      className="relative flex flex-col lg:flex-row items-start justify-between px-4 sm:px-6 md:px-16 lg:px-24 xl:px-32 text-black min-h-screen h-screen w-full py-10"
@@ -58,14 +59,38 @@ Backed by a lifetime warranty, you will find our products are of the highest qua
                     <label className="text-black/70" htmlFor="name">Your Name</label>
                     <input className="h-12 p-2 mt-2 w-full border border-gray-500/30 rounded outline-none focus:border-indigo-300" type="text" required />
                 </div>
+                  <div className="w-full">
+                    <label className="text-black/70" htmlFor="name">Last Name</label>
+                    <input className="h-12 p-2 mt-2 w-full border border-gray-500/30 rounded outline-none focus:border-indigo-300" type="email" required />
+                </div>
+                
                 <div className="w-full">
                     <label className="text-black/70" htmlFor="name">Your Email</label>
                     <input className="h-12 p-2 mt-2 w-full border border-gray-500/30 rounded outline-none focus:border-indigo-300" type="email" required />
                 </div>
             </div>
-        
+            <div className="flex flex-col md:flex-row mt-6 items-center gap-8 w-[350px] md:w-[700px]">
+          <div className="w-full">
+                    <label className="text-black/70" htmlFor="Phone">Phone</label>
+                    <input className="h-12 p-2 mt-2 w-full border border-gray-500/30 rounded outline-none focus:border-indigo-300" type="number" required />
+                </div>
+                <div className="w-full">
+                    <label className="text-black/70" htmlFor="Zip Code">Zip Code</label>
+                    <input className="h-12 p-2 mt-2 w-full border border-gray-500/30 rounded outline-none focus:border-indigo-300" type="number" required />
+                </div>
+                <div className="w-full">
+                    <label className="text-black/70" htmlFor="Product Type">Product Type</label>
+                    <select className="h-12 p-2 mt-2 w-full border border-gray-500/30 rounded outline-none focus:border-indigo-300"  required >
+                     <option value="Blinds">Blinds</option>
+  <option value="Shutters">Shutters</option>
+  <option value="Draps">Draps</option>
+  <option value="Shades">Shades</option>
+</select>
+
+                </div>
+                </div>
             <div className="mt-6 w-[350px] md:w-[700px]">
-                <label className="text-black/70" htmlFor="name">Message</label>
+                <label className="text-black/70" htmlFor="name">Comments</label>
                 <textarea className="w-full mt-2 p-2 h-40 border border-gray-500/30 rounded resize-none outline-none focus:border-indigo-300" required></textarea>
             </div>
         
@@ -77,8 +102,9 @@ Backed by a lifetime warranty, you will find our products are of the highest qua
     <Consult/>
     <Banner/>
     <About/>
-    <customwindow/>
+    
     <Testomials/>
+    <Custom/>
     <Footer/>
     </div>
   )

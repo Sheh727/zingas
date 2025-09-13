@@ -9,6 +9,7 @@ import About from '../components/About'
 import Footer from '../components/Footer'
 import Testomials from '../components/Testomials'
 import Products from '../components/Products'
+import Custom from '../components/Custom'
 import { motion } from 'framer-motion'
 const page = () => {
   return (
@@ -18,7 +19,8 @@ const page = () => {
     
     <motion.div
      initial={{ opacity: 0, scale: 1.05 }}
-  whileInView={{ opacity: 1, scale: 1 }}
+  animate={{ opacity: 1, scale: 1 }}
+
   transition={{ duration: 1.2, ease: 'easeOut' }} 
     className="relative flex flex-col lg:flex-row items-start justify-between px-4 sm:px-6 md:px-16 lg:px-24 xl:px-32 text-black min-h-screen  h-[120vh]  w-full py-10"
       style={{
@@ -78,7 +80,7 @@ const page = () => {
       </div>
       </div>
 
-     <form className="flex flex-col items-center text-sm text-blue-800 bg-gray-100 ">
+   <form className="flex flex-col items-center text-sm text-blue-800 bg-gray-100 ">
           
                 
                 
@@ -91,14 +93,89 @@ const page = () => {
                     <label className="text-black/70" htmlFor="name">Your Name</label>
                     <input className="h-12 p-2 mt-2 w-full border border-gray-500/30 rounded outline-none focus:border-indigo-300" type="text" required />
                 </div>
+                  <div className="w-full">
+                    <label className="text-black/70" htmlFor="name">Last Name</label>
+                    <input className="h-12 p-2 mt-2 w-full border border-gray-500/30 rounded outline-none focus:border-indigo-300" type="email" required />
+                </div>
+                
                 <div className="w-full">
                     <label className="text-black/70" htmlFor="name">Your Email</label>
                     <input className="h-12 p-2 mt-2 w-full border border-gray-500/30 rounded outline-none focus:border-indigo-300" type="email" required />
                 </div>
             </div>
-        
+            <div className="flex flex-col md:flex-row mt-6 items-center gap-8 w-[350px] md:w-[700px]">
+          <div className="w-full">
+                    <label className="text-black/70" htmlFor="Phone">Phone</label>
+                    <input className="h-12 p-2 mt-2 w-full border border-gray-500/30 rounded outline-none focus:border-indigo-300" type="number" required />
+                </div>
+                <div className="w-full">
+                    <label className="text-black/70" htmlFor="Zip Code">Zip Code</label>
+                    <input className="h-12 p-2 mt-2 w-full border border-gray-500/30 rounded outline-none focus:border-indigo-300" type="number" required />
+                </div>
+               
+                   </div>
+                    <div className="flex flex-col md:flex-row mt-6 items-center gap-8 w-[350px] md:w-[700px]">
+                       <div className="w-full ">
+                    <label className="text-black/70" htmlFor="Addres">Address</label>
+                    <input className="h-12 p-2 mt-2 w-full border border-gray-500/30 rounded outline-none focus:border-indigo-300" type="email" required />
+                                    <div className="w-full  mt-6 ">
+                    <label className="text-black/70" htmlFor="Product Type">What Type of Product Was Intalled? </label>
+                    <select className="h-12 p-2 mt-2 w-full border border-gray-500/30 rounded outline-none focus:border-indigo-300"  required >
+                     <option value="Window Covering">Window Covering</option>
+  <option value="Home Organization">Home Organization</option>
+
+</select>
+                </div>
+                 <div className="w-full  mt-6 ">
+                    <label className="text-black/70" htmlFor="Did Your Installer Send You Here?">Did Your Installer Send You Here? </label>
+                    <select className="h-12 p-2 mt-2 w-full border border-gray-500/30 rounded outline-none focus:border-indigo-300"  required >
+                     <option value="Yes">Yes</option>
+  <option value="No">No</option>
+
+</select>
+                </div>
+                 <div className="w-full mt-6">
+                    <label className="text-black/70" htmlFor="Name Of Installer">Name Of Installer</label>
+                    <input className="h-12 p-2 mt-2 w-full border border-gray-500/30 rounded outline-none focus:border-indigo-300" type="text" required />
+                </div>
+                </div>
+                 
+                </div>
+                  <h1 className="text-4xl font-semibold text-slate-700 pb-4 mt-8">Who You're Referring</h1>
+
+            
+            <div className="flex flex-col md:flex-row items-center gap-8 w-[350px] md:w-[700px]">
+                <div className="w-full">
+                    <label className="text-black/70" htmlFor="name">Your Name</label>
+                    <input className="h-12 p-2 mt-2 w-full border border-gray-500/30 rounded outline-none focus:border-indigo-300" type="text" required />
+                </div>
+                  <div className="w-full">
+                    <label className="text-black/70" htmlFor="name">Last Name</label>
+                    <input className="h-12 p-2 mt-2 w-full border border-gray-500/30 rounded outline-none focus:border-indigo-300" type="email" required />
+                </div>
+                
+                <div className="w-full">
+                    <label className="text-black/70" htmlFor="name">Your Email</label>
+                    <input className="h-12 p-2 mt-2 w-full border border-gray-500/30 rounded outline-none focus:border-indigo-300" type="email" required />
+                </div>
+            </div>
+            <div className="flex flex-col md:flex-row mt-6 items-center gap-8 w-[350px] md:w-[700px]">
+          <div className="w-full">
+                    <label className="text-black/70" htmlFor="Phone">Phone</label>
+                    <input className="h-12 p-2 mt-2 w-full border border-gray-500/30 rounded outline-none focus:border-indigo-300" type="number" required />
+                </div>
+                <div className="w-full">
+                    <label className="text-black/70" htmlFor="Zip Code">Zip Code</label>
+                    <input className="h-12 p-2 mt-2 w-full border border-gray-500/30 rounded outline-none focus:border-indigo-300" type="number" required />
+                </div>
+               
+                   </div>
+                    <div className="flex flex-col md:flex-row mt-6 items-center gap-8 w-[350px] md:w-[700px]">
+                       <div className="w-full ">
+                    <label className="text-black/70" htmlFor="Addres">Address</label>
+                    <input className="h-12 p-2 mt-2 w-full border border-gray-500/30 rounded outline-none focus:border-indigo-300" type="email" required /></div> </div>
             <div className="mt-6 w-[350px] md:w-[700px]">
-                <label className="text-black/70" htmlFor="name">Message</label>
+                <label className="text-black/70" htmlFor="name">Comments</label>
                 <textarea className="w-full mt-2 p-2 h-40 border border-gray-500/30 rounded resize-none outline-none focus:border-indigo-300" required></textarea>
             </div>
         
@@ -112,6 +189,7 @@ const page = () => {
     <Banner/>
     <About/>
     <Testomials/>
+    <Custom/>
     <Footer/>
     </div>
     

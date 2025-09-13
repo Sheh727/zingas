@@ -21,8 +21,8 @@ const DrapsProducts = () => {
          initial={{opacity: 0, y:100 }}
             whileInView={{opacity: 1, y:0 }}
              transition={{delay:0.5,duration: 1}}
-      className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-4 
-            xs: px-5 sm:px-7 md:px-9 lg:px-10 xl:px-15 max-w-7xl mx-auto'>
+      className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-14 justify-center
+            xs: px-4 sm:px-7 md:px-7 lg:px-10 xl:px-10 max-w-7xl mx-auto'>
       {DrapesproductsData.map((product,index)=>(
         <div key={index}>
           <Drapscard product={product}/>

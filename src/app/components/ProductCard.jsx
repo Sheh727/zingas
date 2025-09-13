@@ -30,7 +30,7 @@ const ProductCard = ({ product }) => {
           alt='Product'
           className='w-full h-full object-cover transition-transform duration-500 group-hover:scale-105'
         />
-        <div className="absolute bottom-0 left-0 right-0 h-10 group-hover:h-full bg-yellow-200/90 z-10 transition-all duration-500 ease-in-out flex items-end group-hover:items-center">
+        <div className="absolute bottom-0 left-0 right-0 h-10 group-hover:h-full bg-yellow-50/70 z-10 transition-all duration-500 ease-in-out flex items-end group-hover:items-center">
           <h3 className='text-2xl text-black text-center font-medium w-full'>
             {product.title}
           </h3>

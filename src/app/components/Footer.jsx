@@ -1,8 +1,10 @@
 'use client';
 import React from 'react';
 import { motion } from 'framer-motion';
+import {useRouter} from 'next/navigation';
 
 const Footer = () => {
+  const router = useRouter()
   const linkSections = [
     {
       title: 'products',
@@ -21,18 +23,28 @@ const Footer = () => {
         'Zinga’s Indianapolis',
       ],
     },
-    {
-      title: 'Follow Us',
-      links: ['Instagram', 'Twitter', 'Facebook', 'YouTube'],
-    },
+  
   ];
+  const handleClick = (link) => {
+    const routes = {
+      Shutter: '/Shutters',
+      Shades: '/Shades',
+      Blinds: '/Blinds',
+      Draps: '/Draps',
+    };
+
+    if (routes[link]) {
+      router.push(routes[link]);
+    }
+  };
+
 
   return (
     <motion.div
       initial={{ y: 20, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.2 }}
-      className="px-6 bg-[#535fab] md:px-16 lg:px-24 xl:px-32"
+      className="px-6 bg-gray-500 md:px-16 lg:px-24 xl:px-32"
     >
       <div className="flex flex-col md:flex-row items-start justify-between gap-10 py-10 text-white">
         <div>
@@ -98,7 +110,7 @@ const Footer = () => {
   </svg></a>
           </div>
           <p className="max-w-[200px] mt-6">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum unde quaerat eveniet cumque accusamus atque qui error quo enim fugiat?
+          Zinga’s has been offering window treatments for 25 years and has grown 25% year over year.
           </p>
         </div>
 
@@ -109,7 +121,7 @@ const Footer = () => {
               <ul className="text-[20px] space-y-1">
                 {section.links.map((link, i) => (
                   <li key={i}>
-                    <a href="#" className="hover:underline transition">
+                    <a href="#"  onClick={() => handleClick(link)} className="hover:underline transition">
                       {link}
                     </a>
                   </li>
@@ -119,7 +131,7 @@ const Footer = () => {
           ))}
         </div>
       </div>
-      <p className="py-4 text-center text-sm md:text-base text-gray-500/80">
+      <p className="py-4 text-center text-sm md:text-base text-black font-semibold">
         Copyright 2025 © <a href="https://zingashome.com/">Zingas</a> All Right Reserved.
       </p>
     </motion.div>

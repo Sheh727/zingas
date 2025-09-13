@@ -11,6 +11,7 @@ import { motion } from 'framer-motion'
 
 import Title from '../components/Title'
 import GallerySwitcher from '../components/GallerySwitcher'
+import Custom from '../components/Custom'
 const page = () => {
   return (
     <div>
@@ -18,7 +19,8 @@ const page = () => {
     <Navbar/>
      <motion.div 
       initial={{ opacity: 0, scale: 1.05 }}
-  whileInView={{ opacity: 1, scale: 1 }}
+animate={{ opacity: 1, scale: 1 }}
+
   transition={{ duration: 1.2, ease: 'easeOut' }}
      className="relative flex flex-col lg:flex-row items-start justify-between px-4 sm:px-6 md:px-16 lg:px-24 xl:px-32 text-black min-h-screen  h-[120vh]  w-full py-10"
       style={{
@@ -47,6 +49,7 @@ const page = () => {
     <Banner/>
     <About/>
     <Testomials/>
+    <Custom/>
     <Footer/>
     </div>
   )

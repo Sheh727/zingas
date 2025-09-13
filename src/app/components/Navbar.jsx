@@ -94,7 +94,7 @@ const handleSelect = (menuName, option) => {
     { name: 'Products', options: ['Shades', 'Shutter', 'Blinds','Draps'] },
     { name: 'Promotions', options: ['Promotions', 'Financing', 'Home Builder Discount'] },
     { name: 'Need Services', options: ['Self-Service', 'Service Request'] },
-    { name: 'About US', options: ['Contact Us', 'Gallery', 'Refferal','We Support'] },
+    { name: 'About US', options: ['Contact Us', 'Gallery', 'Refferal'] },
   ];
 
   return (
@@ -139,20 +139,23 @@ const handleSelect = (menuName, option) => {
           <div className='flex gap-2 items-center'>
       <button
         onClick={() => router.push("/Scheduleconsultion")}
-        className='px-2 h-[32px] bg-yellow-300 hover:bg-yellow-500 text-black text-xs font-medium rounded transition duration-300'
+        className='px-2 h-[32px] bg-yellow-300 hover:bg-yellow-500 text-black  hover:cursor-pointer text-xs font-medium rounded transition duration-300'
       >
         Schedule
       </button>
       <button
-        className='px-2 h-[32px] bg-yellow-300 hover:bg-yellow-500 text-black text-xs font-medium rounded transition duration-300'
+        className='px-2 h-[32px] bg-yellow-300 hover:bg-yellow-500 text-black  hover:cursor-pointer text-xs font-medium rounded transition duration-300'
       >
         Pay
       </button>
+      <div className='flex flex-col'>
       <button
-        className='px-2 h-[32px] bg-yellow-300 hover:bg-yellow-500 text-black text-xs font-medium rounded transition duration-300'
+        className='px-2 h-[32px] bg-yellow-300 hover:bg-yellow-500 text-black hover:cursor-pointer text-xs font-medium rounded transition duration-300'
       >
-        844-494-6427
-      </button>
+        <div className='flex'>
+        <img width="15" height="15" src="https://img.icons8.com/ios-filled/50/1A1A1A/phone.png" alt="phone"/>
+      <span className='ml-1'>  844-494-6427 </span></div>
+      </button>  </div>
     </div>
         <div className='flex items-center gap-4'>
           <button className='block md:hidden ml-3' onClick={openMenu}>

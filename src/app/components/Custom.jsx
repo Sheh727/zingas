@@ -40,7 +40,7 @@ const Custom = () => {
   ];
 
   return (
-    <div className="bg-gray-50 py-10 px-6 lg:px-20 mt-7 ">
+    <div className="bg-gray-100 py-10 px-6 lg:px-20 mt-7 ">
       <h1 className="text-4xl font-semibold text-center text-black mb-10">
         Zinga’s <span className="font-normal">Custom Window Coverings</span>
       </h1>
