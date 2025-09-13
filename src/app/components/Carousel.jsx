@@ -13,7 +13,23 @@ const Carousel = () => {
     slidesToScroll: 1,
     autoplay: false,
     arrows: true,
+    responsive: [
+      {
+        breakpoint: 1024, 
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 640, 
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+
   };
+  
 
   const images = [
     "/images/Carouselimages/dmdeancustomhomes.png",
@@ -28,21 +44,23 @@ const Carousel = () => {
   ];
 
   return (
-    <div className="w-full max-w-6xl mx-auto py-8 px-4 relative mb-8">
+    <div className="w-auto max-w-6xl ml-[50px]  py-8 px-4 relative mb-8">
       <h2 className="text-center text-4xl font-bold mb-4 ">Building a Home?</h2>
         <p className="text-gray-700 mb-20">Building a home can be stressful enough, let us take the burden of window treatments off your hands. We will meet with you after your drywall is complete and can install as soon as you move in!</p>
+        <div className="ml-9 mr-9 ">
       <Slider {...settings}>
         {images.map((src, index) => (
-          <div key={index} className="px-2 ml-[75px]">
+          <div key={index} className="px-2  ml-[75px]">
             <img
               src={src}
               alt={`Slide ${index + 1}`}
               className="w-40 h-25  rounded-lg shadow-md"
             />
+            
           </div>
         ))}
       </Slider>
-
+</div>
       <style jsx>{`
         :global(.slick-prev),
         :global(.slick-next) {

@@ -3,11 +3,11 @@ import React from 'react'
 import { motion } from 'framer-motion'
 
 const galleryItems = [
-  { title: "Shades", image: "Images/Shades-1.png" },
-  { title: "Shutter", image: "Images/Shutters-1.jpeg" },
-  { title: "Blinds", image: "Images/Blinds-1.jpg" },
-  { title: "Drapes", image: "Images/Drapes-1.png" },
-  { title: "Patio Screen", image: "Images/Screens-1.jpg" },
+  { title: "Shades", image: "images/Shades-1.png" },
+  { title: "Shutter", image: "images/Shutters-1.jpeg" },
+  { title: "Blinds", image: "images/Blinds-1.jpg" },
+  { title: "Drapes", image: "images/Drapes-1.png" },
+  { title: "Patio Screen", image: "images/Screens-1.jpg" },
   
 ]
 
